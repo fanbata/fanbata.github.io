@@ -1,0 +1,68 @@
+body {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+header {
+	color: #0EBFE9;
+	padding: 1em;
+	font-size: 36px;
+}
+
+#container {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+#buttonspace {
+	padding: 3em;
+}
+
+#buttonspace button {
+	color: white;
+	font-size: 18px;
+	background-color: #0EBFE9;
+	padding: 0.5em 1em 0.5em 1em;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-left: 1em;
+	border: 0;
+}
+
+#winner {
+	color: white;
+	font-size: 24px;
+	width: 100px;
+	height: 0px;
+	opacity: 0;
+	background-color: orange;
+	border-radius: 5px;
+	margin: 0 auto;
+	text-overflow: clipped;
+	transition: all 0.5s ease-out;
+}
+
+.tile {
+	background-image: url("puzzle.png");
+	width: 98px;
+	height: 98px;
+	border: 1px solid clear;
+	transition: all 0.2s ease-out;
+}
+
+#puzzlearea {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+.hiddentile {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+	opacity: 0.6;
+	pointer-events: none;
+	z-index: 1000;
+}
