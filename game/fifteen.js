@@ -94,9 +94,9 @@ Square.prototype.move = function() {
 			element.style.top = top + "px";
 			blank = temppos;
 			availableMoves();
-		}
-		if (didWin()) {
-			endGame();
+			if (didWin()) {
+				endGame();
+			}
 		}
 	}
 };
