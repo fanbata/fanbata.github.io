@@ -1,4 +1,5 @@
 // Let's build a timer //
+// TODO: Make timer self-adjusting? //
 document.addEventListener('DOMContentLoaded', function() {
 	var timer = null;
 
@@ -61,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	Timer.prototype.begin = function() {
 		this.start();
-		this.interval = setInterval(this.update.bind(this), 1000);
+		this.interval = setInterval(this.update.bind(this), 200);
 	};
 
 	Timer.prototype.update = function() {
