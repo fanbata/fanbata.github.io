@@ -1,73 +1,32 @@
-body {
-	background-color: #5ae699;
-	font-family: Century Gothic, Arial, sans-serif;
-}
-
-header {
-	text-align: center;
+#container {
+	font-family: "Century Gothic", "Arial";
 	margin: 0 auto;
-	margin-top: 12em;
-	margin-bottom: 5em;
-}
-
-header h1 {
-	font-size: 100px;
-	color: white;
-	line-height: 40px;
-	padding: 0;
-	border: 0;
-	margin: 0;
-}
-
-header h2 {
-	font-size: 48px;
-	color: white;
-}
-
-section {
-	margin: 0 auto;
+	margin-top: 10%;
 	text-align: center;
-	border: 3px solid white;
-	max-width: 600px;
-	padding-bottom: 2.5em;
-	padding-top: 0.5em;
 }
 
-section h2 {
-	display: block;
-	text-align: center;
-	margin: 0 auto;
-	padding: 0.5em;
-	color: white;
-	font-size: 36px;
-	text-transform: lowercase;
+#container h1 {
+	font-size: 60px;
+	margin-bottom: 2em;
 }
 
-section a {
-	font-size: 24px;
-	display: block;
+#container a {
+	background-color: white;
+	color: orange;
 	width: 200px;
-	background-color: #ee68b1;
-	margin: 0 auto 4em auto;
-	padding: 0.5em;
+	display: block;
+	font-weight: 700;
+	margin: 0 auto;
+	margin-bottom: 2em;
+	padding: 1em 2em;
 	border-radius: 5px;
+	border: 2px solid orange;
 	text-decoration: none;
+	transition: all 0.15s ease-in-out;
+}
+
+#container a:hover {
+	background-color: orange;
 	color: white;
-	transition: all 0.2s ease-out;
-	-webkit-transition: all 0.2s ease-out;
-	-moz-transition: all 0.2s ease-out;
-}
-
-section a:hover{
-	background-color: #f4a1ce;
-}
-
-section a:active {
-	background-color: #df61a4;
-}
-
-@media screen and (max-width: 800px) {
-	header h1 {
-		line-height: 100px;
-	}
+	border: 2px solid white;
 }
