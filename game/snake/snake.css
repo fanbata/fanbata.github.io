@@ -1,0 +1,41 @@
+#game {
+	margin-right: auto;
+	margin-left: auto;
+	width: 640px;
+	position: relative;
+}
+#snakeBody {
+	background-color: #333333; 
+	margin-top: 2em;
+}
+#score {
+	color: black;
+	font-size: 30px;
+	display: block;
+	text-align: center;
+	margin: 0.5em 0;
+}
+
+#start {
+	display: block;
+	background-color: #333333;
+	color: white;
+	cursor: pointer;
+	padding: 1em;
+	border: 0;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 1em;
+}
+
+#game .playing {
+	background-color: white;
+	cursor: default;
+	color: black;
+}
+
+#colorcheck {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 1em;
+}
